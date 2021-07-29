@@ -1,0 +1,67 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User on the Home page of Audience Builder",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 35795847100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Home Page  of Audience Builder",
+            "match": {
+              "location": "AudienceBuilder.user_is_on_the_Home_Page_of_Audience_Builder()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 41,
+        "name": "Verify New Audience button is functional",
+        "description": "",
+        "id": "helix-audience-builder;verify-new-audience-button-is-functional",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "User is on the new attribute home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 43,
+            "name": "User click on the new attribute",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 40,
+            "name": "@ABTC1-6"
+          }
+        ]
+      }
+    ],
+    "name": "Helix Audience Builder",
+    "description": "",
+    "id": "helix-audience-builder",
+    "keyword": "Feature",
+    "uri": "AudienceBuilder.feature"
+  }
+]

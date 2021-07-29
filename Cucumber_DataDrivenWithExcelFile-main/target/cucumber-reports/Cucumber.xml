@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="35.795847">
+<testcase classname="Helix Audience Builder" name="Verify New Audience button is functional" time="35.795847">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given User is on the Home Page  of Audience Builder.........................passed
+Given User is on the new attribute home page................................undefined
+Then User click on the new attribute........................................undefined
+]]></failure>
+</testcase>
+</testsuite>
