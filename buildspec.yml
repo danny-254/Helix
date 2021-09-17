@@ -30,7 +30,7 @@ phases:
       - echo Entered the build phase...
       - echo Build started
       - mvn clean
-      - mvn test
+      - mvn clean test
       - ls 
   post_build:
     commands:
