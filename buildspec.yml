@@ -27,7 +27,7 @@ phases:
       - echo Entered the build phase...
       - echo Build started
       - mvn clean
-      - mvn test
+      - mvn clean test -Dtest=Attribute
       - ls 
   post_build:
     commands:
