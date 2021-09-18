@@ -14,12 +14,12 @@ phases:
       #- apt-get -y update
       #- apt-get -y install google-chrome-stable
       - google-chrome-stable --version
-      #- wget https://chromedriver.storage.googleapis.com/2.41/chromedriver_linux64.zip
-      #- unzip chromedriver_linux64.zip
+      - wget https://chromedriver.storage.googleapis.com/92.0.4515.107/chromedriver_linux64.zip
+      - unzip chromedriver_linux64.zip
       
-      #- mv chromedriver /usr/bin/chromedriver
+      - mv chromedriver /usr/bin/chromedriver
       #- chown root:root /usr/bin/chromedriver
-      #- chmod +x /usr/bin/chromedriver
+      - chmod +x /usr/bin/chromedriver
       
       #- wget https://selenium-release.storage.googleapis.com/3.13/selenium-server-standalone-3.13.0.jar
       #- xvfb-run java -Dwebdriver.chrome.driver=/usr/bin/chromedriver -jar selenium-server-standalone-3.13.0.jar
