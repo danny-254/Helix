@@ -4,10 +4,10 @@ phases:
   install:
     commands:
       - echo Entering the install phase...
-      - yum update -y
-      - yum install -y maven
+      - apt-get update -y
+      - apt-get install -y maven
       #- apt-get install -y junit
-      - yum install -y testng
+      - apt-get install -y testng
       #- apt-get install -y unzip xvfb libxi6 libgconf-2-4
       #- curl -sS -o - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add
       #- echo "deb [arch=amd64]  http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list
