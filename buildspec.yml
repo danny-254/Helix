@@ -14,7 +14,7 @@ phases:
       #- apt-get -y update
       #- apt-get -y install google-chrome-stable
       - wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
-      - yum localinstall google-chrome-stable_current_x86_64.rpm
+      - yum install google-chrome-stable_current_x86_64.rpm
       - wget https://chromedriver.storage.googleapis.com/93.0.4577.63/chromedriver_linux64.zip
       - unzip chromedriver_linux64.zip
       
