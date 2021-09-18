@@ -13,7 +13,7 @@ phases:
       #- echo "deb [arch=amd64]  http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list
       #- apt-get -y update
       #- apt-get -y install google-chrome-stable
-       - google-chrome-stable --version
+      - google-chrome-stable --version
       #- wget https://chromedriver.storage.googleapis.com/2.41/chromedriver_linux64.zip
       #- unzip chromedriver_linux64.zip
       
